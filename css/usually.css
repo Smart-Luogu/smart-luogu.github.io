@@ -1,4 +1,8 @@
-
+	@keyframes showback{
+            0%{
+                opacity: 0;
+            }
+        }
         @keyframes showbox{
             0%{
                 transform: rotateY(100deg);
@@ -9,13 +13,14 @@
             background-color: rgb(239, 239, 239);
         }
         .bgimg{
-            margin-top: 40px;
-            background-image: url(https://cdn.luogu.com.cn/upload/image_hosting/cz69dr7m.png);
+	    animation: showback 1s;
+            margin-top: 30px;
+            background-image: url(https://img1.imgtp.com/2022/07/11/1jMgVbdM.png);
             background-repeat: no-repeat;
-	        background-position:center;
+	    background-position:center;
             background-size:contain;
             background-attachment:fixed;
-            height: 80vh;
+            height: 85vh;
             width: 100%;
             margin-left: -1vw;
         }
