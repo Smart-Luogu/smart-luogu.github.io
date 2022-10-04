@@ -1,0 +1,9 @@
+* {
+    transition: all .3s ease-in;
+}
+.dark {
+    --bg-color: #242424;
+    --main-color: #eee;
+    --next-color: rgb(205, 205, 205);
+    --light-color: #a2a6a9;
+}
